@@ -26,7 +26,7 @@ namespace ColourClass
             this.red = red;
             this.green = green;
             this.blue = blue;
-            this.alpha = 255;
+            alpha = 255;
         }
 
         public byte GetRed()
