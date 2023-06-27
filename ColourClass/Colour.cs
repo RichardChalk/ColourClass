@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ColourClass
 {
-    public class Color
+    public class Colour
     {
         private byte red;
         private byte green;
         private byte blue;
         private byte alpha;
 
-        public Color(byte red, byte green, byte blue, byte alpha)
+        public Colour(byte red, byte green, byte blue, byte alpha)
         {
             this.red = red;
             this.green = green;
@@ -21,7 +21,7 @@ namespace ColourClass
             this.alpha = alpha;
         }
 
-        public Color(byte red, byte green, byte blue)
+        public Colour(byte red, byte green, byte blue)
         {
             this.red = red;
             this.green = green;
